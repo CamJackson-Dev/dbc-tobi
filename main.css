@@ -37,9 +37,11 @@ ul {
     list-style: none;
 }
 .footer-social-icons {
-    width: 350px;
-    display:block;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
+    flex-direction: column;
 }
 .social-icon {
     color: #fff;
