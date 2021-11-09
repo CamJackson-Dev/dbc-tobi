@@ -218,7 +218,11 @@ img.profile-pic {
 }
 
 .col.is-6 {
-	flex: none;
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
 	width: 60%;
 }
 
